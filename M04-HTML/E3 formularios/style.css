@@ -1,0 +1,31 @@
+*{
+    font-family: sans-serif;
+    background-color:  whitesmoke;
+}
+#datosPersonales {
+    background-color: #ff9999; 
+  }
+  
+  #Modulos {
+    background-color: #99ff99; 
+  }
+  
+  #ciclo {
+    background-color: #9999ff; 
+  }
+  
+  #Profe {
+    background-color: #ff99ff; 
+  }
+  
+  #sobreTi {
+    background-color: aquamarine; 
+  }
+  
+  #CursosExtras {
+    background-color: #ffff99; 
+  }
+  
+  #FechaEncuesta {
+    background-color: #999999; 
+  }

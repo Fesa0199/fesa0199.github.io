@@ -1,0 +1,9 @@
+body{
+    background-color: black;
+}
+.texto,
+h2{
+    font-weight: bolder;
+    font-style: italic;
+    color: white;
+}

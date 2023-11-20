@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    
+    <link rel="stylesheet" href="Form.css" />
+    <link rel="icon" href="./Adopta ahora disfruta luego.png">
+  </head>
+  <body>
+    <section class="contenedor">
+      <header>Fomulario de adopción</header>
+      <form action="#" class="form">
+        <div class="info-cliente">
+          <label>Nombre completo</label>
+          <input type="text" placeholder="Nombre completo" required />
+        </div> 
+        <div class="info-cliente">
+          <label>Dirección mail</label>
+          <input type="text" placeholder="Dirección de gmail" required />
+        </div>
+
+        <div class="columna">
+          <div class="info-cliente">
+            <label>numero de telefono</label>
+            <input type="number" placeholder="numero de telefono" required />
+          </div>
+          <div class="info-cliente">
+            <label>Fecha de cumpleaños</label>
+            <input type="date"  required />
+          </div>
+        </div>
+        <div class="género">
+          <h3>Género</h3>
+          <div class="opción-genero">
+            <div class="género">
+              <input type="radio" id="check-male" name="género" checked />
+              <label for="check-male">Hombre</label>
+            </div>
+            <div class="género">
+              <input type="radio" id="check-female" name="género" />
+              <label for="check-female">Mujer</label>
+            </div>
+            <div class="género">
+              <input type="radio" id="check-other" name="género" />
+              <label for="check-other">Prefiero no decirlo</label>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="Mascotas">
+          <h3>¿Tiene mascotas en casa?</h3>
+          <div class="Tiene mascotas">
+              <div class="Si">
+                  <input type="radio" id="siMas" name="opcionMascotas" checked />
+                  <label for="siMas">Sí</label>
+              </div>
+              <div class="No">
+                  <input type="radio" id="noMas" name="opcionMascotas" />
+                  <label for="noMas">No</label>
+              </div>
+          </div>
+        </div>
+        <div class="Tipo Mas">
+            <h3>Tipo de mascotas?</h3>
+            <input type="checkbox" id="Gato"><label for="Gato">Gato</label>
+            <br>
+            <input type="checkbox" id="Perro"><label for="Perro">Perro</label>
+        </div>
+           
+          
+        <div class="info-cliente address">
+          <label>Dirección</label>
+          <input type="text" placeholder="Dirección" required />
+          <input type="text" placeholder="Segunda dirección" required />
+          <div class="columna">
+            <div class="Provincia">
+              <select>
+                <option hidden>Provincia</option>
+                <option>Barcelona</option>
+                <option>Girona</option>
+                <option>Tarragona</option>
+                <option>Lleida</option>
+              </select>
+            </div>
+            <input type="text" placeholder="Dime tu ciudad" required />
+          </div>
+          <div class="columna">
+            <input type="text" placeholder="Dime tu poblacion" required />
+            <input type="text" placeholder="codigo postal" required />
+          </div>
+        </div>
+        <p><button type="reset">Reset</button></p>
+        <button>Submit</button>
+      </form>
+    </section>
+    
+  </body>
+</html>

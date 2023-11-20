@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilo para el fondo del cuerpo */
+body {
+  background-color: #65c4dc;
+}
+
+/* Estilo del menú de navegación */
+
+/* Estilo para el contenedor del slider */
+.slider-box {
+  width: 70%;
+  height: auto;
+  margin-top: 50px auto 0;
+  overflow: hidden;
+  z-index: 2;
+  transform: translateX(24%);
+  margin-top: 204px;
+  z-index: 0;
+}
+
+/* Estilo para la lista de imágenes en el slider */
+.slider-box ul {
+  display: flex;
+  padding: 0;
+  width: 400%;
+  animation: slide 20s infinite alternate ease-in-out;
+}
+
+/* Estilo para cada elemento del slider */
+.slider-box li {
+  width: 25%; /* 100% dividido en 4 elementos */
+  list-style: none;
+  position: relative;
+}
+
+/* Estilo para el texto dentro de los elementos del slider */
+.texto {
+  position: absolute;
+  text-align: center;
+  padding: 0 10px;
+  top: 50%;
+  margin-left:200px ;
+  color: #ffffff;
+}
+
+/* Estilo para el título dentro del texto del slider */
+.texto h2 {
+  font-size: 45px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #ffffff
+}
+
+/* Estilo para las imágenes del slider */
+.slider-box img {
+  width: 100%;
+  margin-top:1px ;
+}
+
+/* Animación para desplazar el slider */
+@keyframes slide {
+  0% { margin-left: 0; }
+  20% { margin-left: 0; }
+  25% { margin-left: -100%; }
+  45% { margin-left: -100%; }
+  50% { margin-left: -200%; }
+  70% { margin-left: -200%; }
+  75% { margin-left: -300%; }
+  100% { margin-left: -300%; }
+}
+
+/* Estilo para elementos iframe (tal vez necesites ajustar esto) */
+.iframe {
+  width: 100%;
+}
+
+/* Estilo para tablas */
+.tabla {
+  width: 100%;
+}
+.footer{
+  background-color: #34495e; /* Gris Principal */
+  padding: 20px 0;
+  color: #bdc3c7; /* Plateado */
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+.movimiento{
+  position: relative;
+    top: 10px; /* Ajusta la posición vertical según tus preferencias */
+    right: -1000px; /* Ajusta la posición horizontal según tus preferencias */
+}
+/* Estilo general del footer */
+.footer {
+  background-color: #65c4dc;
+  padding: 20px 0;
+  color: #c0392b;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+/* Estilo del contenido del footer */
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+/* Estilo del logotipo en el footer */
+.footer-logo img {
+  max-width: 150px;
+  margin-bottom: 10px;
+  margin-left: 245px;
+}
+
+/* Estilo de la información de contacto */
+.footer-info {
+  flex: 1;
+  text-align: center;
+  margin-left: 140px;
+}
+
+/* Estilo de los enlaces rápidos */
+.footer-links {
+  flex: 1;
+  text-align: center;
+}
+
+/* Estilo de los enlaces en los enlaces rápidos */
+
+
+.container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+
+.foto-lado {
+  max-width: 100px; 
+  height: auto; 
+}
+
+
+.titulo-lado {
+  font-size: 40px;
+  color: #c0392b
+}
+.contacto{
+  color: #c0392b;
+}
+.p-contacto{
+  color:#27ae60;
+}
+
+.texto-info p{
+  font-size: 16px;
+  margin-bottom: 20px;
+}

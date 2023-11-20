@@ -1,0 +1,62 @@
+body{
+  background-image: url('Imagen fondo.jpg')
+}
+.m4 {
+  background-color: yellow;
+  text-align: center;
+  transition: background-color 0.3s; 
+  
+}
+.m3 {
+  background-color: lightblue;
+  text-align: center;
+  transition: background-color 0.3s; 
+}
+.tut {
+  background-color: pink;
+  text-align: center;
+  transition: background-color 0.3s; 
+}
+.m1 {
+  background-color: lightgreen;
+  text-align: center;
+  transition: background-color 0.3s; 
+}
+.conv {
+  background-color: orange;
+  text-align: center;
+  transition: background-color 0.3s; 
+}
+.patio {
+  background-color: gray;
+  text-align: center;
+  transition: background-color 0.3s; 
+
+}
+.m2 {
+  background-color: lavender; 
+  text-align: center;
+  transition: background-color 0.3s; 
+}
+.m5 {
+  background-color: aqua; 
+  text-align: center;
+  transition: background-color 0.3s; 
+
+}
+ 
+.m4:hover{
+  background-color: #888; 
+}
+.m3:hover{
+  background-color: #888; 
+}
+.m2:hover{
+  background-color: #888; 
+}
+.m1:hover{
+  background-color: #888; 
+}
+.tut:hover{
+  background-color: #888; 
+}

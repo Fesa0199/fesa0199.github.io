@@ -1,0 +1,87 @@
+.menu {
+  font-family: Arial, sans-serif;
+  background-color: #65c4dc;
+  padding: 10px;
+  display: flex;
+  z-index: 4;
+}
+
+.main-menu {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.main-category {
+  font-weight: bold;
+  cursor: pointer;
+  margin: 0 10px;
+  position: relative;
+  background-color: #e0e0e0;
+  transition:  0.3s;
+}
+
+.main-category a {
+  text-decoration: none;
+  color: #333;
+  display: block;
+  padding: 10px;
+}
+
+/* Estilos para los menús desplegables */
+.sub-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0; /* Alinea el submenú a la derecha del elemento principal */
+  background-color: white;
+  padding: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  z-index: 5;
+}
+
+.sub-category {
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #fff;
+  transition: background-color 0.3s;
+  position: relative;
+  z-index: 5;
+}
+
+.sub-category a {
+  text-decoration: none;
+  color: #333;
+  display: block;
+  padding: 10px;
+  z-index: 5
+}
+
+.sub-sub-menu {
+  display: none;
+  background-color: white;
+  padding: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 0;
+  left: 100%; /* Alinea el submenú a la derecha del elemento subcategoría */
+  z-index: 5
+}
+
+.sub-sub-menu a {
+  text-decoration: none;
+  color: #333;
+  display: block;
+  padding: 10px;
+  z-index: 5
+}
+
+/* Estilos para mostrar los menús desplegables al pasar el mouse */
+.main-category:hover .sub-menu,
+.sub-category:hover .sub-sub-menu {
+  display: block;
+}
+
+.sub-category:hover {
+  background-color: #ccc;
+}

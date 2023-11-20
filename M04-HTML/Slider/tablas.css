@@ -1,0 +1,110 @@
+body{
+  background-color: #65c4dc;
+}
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  text-align: center;
+  margin-top: 10px;
+}
+.styled-table{
+    border-collapse: collapse;
+    margin: 80px 0;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 500px;
+    box-shadow: 0 0 20px  #f2f2f2;
+       
+  }
+  .styled-table thead tr{
+    background-color: blue;
+    color: #FFFF;
+    text-align: middle;
+  }
+  
+  .styled-table tbody th ,
+  .styled-table tbody tr{
+    padding: 12px 15px ;
+    text-align: center;
+    background-color: white;
+  }
+  .styled-table tbody tr{
+    border: 1px solid black;
+    padding: 8px;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Estilo para el fondo del cuerpo */
+  body {
+    background-color: #65c4dc;
+  }
+  
+  /* Estilo del menú de navegación */
+  
+  /* Estilo para el contenedor del slider */
+  .slider-box-tablas {
+    width: 70%;
+    height: auto;
+    margin-top: 50px auto 0;
+    overflow: hidden;
+    z-index: 2;
+    transform: translateX(24%);
+    margin-top: 25px;
+  }
+  
+  /* Estilo para la lista de imágenes en el slider */
+  .slider-box-tablas ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: slide 20s infinite alternate ease-in-out;
+  }
+  
+  /* Estilo para cada elemento del slider */
+  .slider-box-tablas li {
+    width: 25%; /* 100% dividido en 4 elementos */
+    list-style: none;
+    position: relative;
+  }
+  
+  /* Estilo para el texto dentro de los elementos del slider */
+  .texto {
+    position: absolute;
+    text-align: center;
+    padding: 0 10px;
+    top: 50%;
+    margin-left:200px ;
+    color: #ffffff;
+  }
+  
+  /* Estilo para el título dentro del texto del slider */
+  .texto h2 {
+    font-size: 45px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #ffffff
+  }
+  
+  /* Estilo para las imágenes del slider */
+  .slider-box-tablas img {
+    width: 100%;
+    margin-top:1px ;
+  }
+  
+  /* Animación para desplazar el slider */
+  @keyframes slide {
+    0% { margin-left: 0; }
+    20% { margin-left: 0; }
+    25% { margin-left: -100%; }
+    45% { margin-left: -100%; }
+    50% { margin-left: -200%; }
+    70% { margin-left: -200%; }
+    75% { margin-left: -300%; }
+    100% { margin-left: -300%; }
+  }

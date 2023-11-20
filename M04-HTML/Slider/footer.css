@@ -1,0 +1,77 @@
+.footer {
+    background-color: #65c4dc;
+    padding: 20px 0;
+    color: #c0392b;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  /* Estilo del contenido del footer */
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  /* Estilo del logotipo en el footer */
+  .footer-logo img {
+    max-width: 150px;
+    margin-bottom: 10px;
+    margin-left: 245px;
+  }
+  
+  /* Estilo de la información de contacto */
+  .footer-info {
+    flex: 1;
+    text-align: center;
+    margin-left: 140px;
+  }
+  
+  /* Estilo de los enlaces rápidos */
+  .footer-links {
+    flex: 1;
+    text-align: center;
+  }
+  
+  /* Estilo de los enlaces en los enlaces rápidos */
+  
+  
+  .container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  
+  .foto-lado {
+    max-width: 100px; 
+    height: auto; 
+  }
+  
+  
+  .titulo-lado {
+    font-size: 40px;
+    color: #c0392b
+  }
+  .contacto{
+    color: #c0392b;
+  }
+  .p-contacto{
+    color:#27ae60;
+  }
+  
+  .texto-info p{
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  .footer-links a{
+    text-decoration: none; /* Elimina la subrayado predeterminado de los enlaces */
+    color: #27ae60; /* Establece el color de los enlaces */
+    transition: color 0.3s; /* Agrega una transición suave para el color */
+  }
+  .footer-links a:hover{
+    color:#c0392b;
+  }
+  .footer ul{
+    list-style-type: none ;
+  }
